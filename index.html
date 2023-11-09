@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+    <style>
+        .heading{
+            text-align: center;
+            padding: 20px;
+            background-color: #009879;
+            color: #fff;
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+        }
+        .styled-table {
+            justify-content: center;
+            align-items: center;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.9em;
+            font-family: sans-serif;
+            min-width: 400px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .styled-table thead tr {
+        background-color: #009879;
+        color: #ffffff;
+        text-align: left;
+        }
+    
+        .styled-table th,
+        .styled-table td {
+            padding: 12px 15px;
+        }
+        .styled-table tbody tr {
+            border-bottom: 1px solid #dddddd;
+        }
+    
+        .styled-table tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+        }
+    
+        .styled-table tbody tr:last-of-type {
+            border-bottom: 2px solid #009879;
+        }
+        .styled-table tbody tr.active-row {
+            font-weight: bold;
+            color: #009879;
+        }
+        .styled-table td {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <h1>ReactJS Tasks</h1>
+    </div>
+    <table class="styled-table">
+        <thead>
+            <th><b>Task</b></th>
+            <th><b>Github Link</b></th>
+            <th><b>Deployment Link</b></th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Task 1</td>
+                <td><a href="https://github.com/Kiranteja228/React_Task1">Github</a></td>
+                <td><a href="https://react-task1-smoky.vercel.app/">Vercel Deployment</a></td>
+            </tr>
+            <tr>
+                <td>Task 2</td>
+                <td><a href="https://github.com/Kiranteja228/React_Task2">Github</a></td>
+                <td><a href="https://react-task2-ashen.vercel.app/">Vercel Deployment</a></td>
+            </tr>
+            <tr>
+                <td>Task 3</td>
+                <td><a href="https://github.com/Kiranteja228/React_Task3">Github</a></td>
+                <td><a href="https://react-task3-self.vercel.app/">Vercel Deployment</a></td>
+            </tr>
+            <tr>
+                <td>Task 4</td>
+                <td><a href="https://github.com/Kiranteja228/React_Task4">Github</a></td>
+                <td><a href="https://react-task4-lovat.vercel.app/">Vercel Deployment</a></td>
+            </tr>
+            <tr>
+                <td>Task 5</td>
+                <td><a href="https://github.com/Kiranteja228/React_Task5">Github</a></td>
+                <td><a href="https://react-task5-brown.vercel.app/">Vercel Deployment</a></td>
+            </tr>
+            <tr>
+                <td>Task 6</td>
+                <td><a href="#">Github</a></td>
+                <td><a href="#">Vercel Deployment</a></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
